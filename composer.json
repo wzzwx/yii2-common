@@ -1,0 +1,21 @@
+{
+    "name": "wzzwx/yii2-common",
+    "description": "",
+    "keywords": ["yii2", "common"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangzheng",
+            "email": "wz152309246@163.com"
+        }
+    ],
+    "require": {
+        "lspbupt/yii2-curl": "*",
+        "doctrine/annotations": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wzzwx\\yii2common\\": "src/"
+        }
+    }
+}
